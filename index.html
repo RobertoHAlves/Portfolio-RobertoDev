@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>RobertoDev</h1>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Bem-vindo ao meu Portfólio</h1>
+    <p>Confira alguns dos meus trabalhos e saiba mais sobre mim.</p>
+</section>
+
+<section id="about" class="about">
+    <h2>Sobre Mim</h2>
+    <p>Sou um desenvolvedor web com experiência em criar websites funcionais e visualmente atraentes. Tenho paixão por aprender novas tecnologias e aprimorar minhas habilidades. Possuo um sólido conhecimento em HTML, JavaScript e WordPress, o que me permite criar soluções personalizadas e dinâmicas para diversas necessidades. <br> 
+        <br>
+        Estou sempre ligado nas últimas tendências e melhores práticas de desenvolvimento web, participando de cursos, workshops e comunidades online. Meu foco é entregar trabalho de alta qualidade, com atenção aos detalhes e à satisfação do cliente.
+    </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projetos</h2>
+    <div class="project-item">
+        <h3><a href="https://robertohalves.github.io/projeto-cordel/" target="_blank">Projeto cordel</a></h3>
+        <p>Meu projeto mais recente é o "Cordel", um site responsivo dedicado a celebrar a rica tradição de cordel. Este site oferece uma experiência imersiva, trazendo a poesia popular nordestina para o mundo digital de forma vibrante e acessível. <br>
+<br>
+            A página foi cuidadosamente projetada para ser totalmente responsiva, garantindo uma navegação fluida e agradável em qualquer dispositivo, seja desktop, tablet ou smartphone. Utilizando HTML e CSS, o site apresenta um design visualmente atraente, com elementos interativos que engajam os visitantes e os convidam a explorar mais.</p>
+    </div>
+    
+    <div class="project-item">
+        <h3><a href="https://robertohalves.github.io/projeto-android/" target="_blank">Projeto Curiosidade de tecnologia</a></h3>
+        <p>Curiosidades de tecnologia é um site dinâmico e responsivo focado em curiosidades sobre tecnologias, com um destaque especial para o universo Android. Criado com HTML e CSS, este site é projetado para ser acessível e atraente em qualquer dispositivo, proporcionando uma experiência de navegação agradável para todos os usuários. <br>
+<br>
+            A pagina é repleto de links interativos que levam os visitantes a explorar uma variedade de tópicos fascinantes sobre o assunto. O site é cuidadosamente estruturada para facilitar a leitura e a interação, mantendo os usuários engajados e curiosos.</p>
+    </div>
+    <!-- Adicione mais projetos conforme necessário -->
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:robertohenriquealves@gmail.com" target="_blank">robertohenriquealves@gmail.com</a></p>
+    <p>Github: <a href="https://github.com/RobertoHAlves" target="_blank">RobertoHAlves</a></p>
+    <p>Linkedin: <a href="https://www.linkedin.com/in/roberto-henrique-alves-8796822a2/">Roberto Henrique Alves</a></p>
+</section>
+
+<script>
+    function mostrarBox() {
+        var box = document.getElementById("minhaBox");
+        if (box.style.display === "none") {
+            box.style.display = "block";
+        } else {
+            box.style.display = "none";
+        }
+        box.classList.toggle("visible");
+    }
+</script>
+
+<footer>
+    <p>&copy; 2024 Roberto Henrique Alves Bezerra. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

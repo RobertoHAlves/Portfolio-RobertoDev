@@ -1,0 +1,100 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;600;700&family=Danfo&family=Flavors&family=Over+the+Rainbow&family=Poetsen+One&family=Shadows+Into+Light&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;600;700&family=Danfo&family=Flavors&family=Over+the+Rainbow&family=Poetsen+One&family=Shadows+Into+Light&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --cor01: #010D26;
+    --cor02: #033E8C;
+    --cor03: #023E73;
+    --cor04: #049DD9;
+    --cor05: #05F2DB;
+}
+    
+
+        body {
+            font-family: "Poetsen one", "arial";
+            margin: 0;
+            padding: 0;
+            background-color: var(--cor01);
+            color: #333;
+        }
+        header {
+            background-color: white;
+            color: #000000;
+            padding: 1rem 0;
+            text-align: center;
+            margin: auto;
+            max-width: 80vw;
+            max-height: 200px;
+            border-radius: 0px 0px 400px 400px;
+            box-shadow: 1px 0px 20px 2px #05f2da85
+
+        }
+        header > h1 {
+            font-family: "Bebas Neue", "sans-serif";
+            text-align: center;
+            font-size: 8vh;
+
+            
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        nav :hover{
+        
+            color: var(--cor05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1.1);
+        }
+        a {
+            text-decoration: none;
+            color: var(--cor04);
+        }
+        a :hover {
+
+            color: var(--cor05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1.1);  
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            color: white;
+
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .projects, .about, .contact {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-item {
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+  
